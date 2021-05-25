@@ -1,0 +1,80 @@
+
+
+#header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(rgba(43,40,40), rgb(77,51,51));
+    color:grey;
+    min-height: 70px;
+    
+}
+
+#wrapper{
+    background: linear-gradient(rgba(43,40,40), rgb(77,51,51));
+    width:1920px;
+    height:969px;
+
+}
+
+#navbar{
+    
+    background: linear-gradient(rgba(77,51,51), rgb(43,40,40));
+    color:grey;
+    height: 816px;
+    width:230px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+#content{
+    outline-width: 1px;
+    outline-style: groove;
+    outline-color: black;
+    display: flex;
+
+}
+#contentheader{
+    outline-width: 1px;
+    outline-style: groove;
+    outline-color: black;
+    background-color: rgb(26, 25, 25);
+    height:60px;
+    width:1660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#maincontent{
+    outline-width: 1px;
+    outline-style: groove;
+    outline-color: black;
+    background: linear-gradient(rgb(71, 71, 71), rgb(26,33,33));
+    height: 756px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    outline-width: 1px;
+    outline-style: groove;
+    outline-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 25, 25);
+    height:60px;
+    color:grey;
+}
+
+h1{
+    text-shadow: rgb(31, 29, 29) 0.1em 0.1em 0.2em;
+}
+
+
+
+
